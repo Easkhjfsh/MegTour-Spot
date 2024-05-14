@@ -1,28 +1,174 @@
-/* Styling the navbar */
+/* Styling the logo */
+.logo a {
+  color: #fff;
+  font-size: 24px; /* Font size */
+  font-weight: bold; /* Font weight */
+  text-decoration: none; /* Remove underline */
+}
+
+body {
+  background-color: black;
+  padding-top: 0%;
+  margin-top: 0%;
+  padding-left: 8vh;
+  padding-right: 8vh;
+}
+
+.first-container {
+  z-index: 1;
+  border-radius: 15px;
+  height: 100vh;
+  padding-top: 0vh;
+  background-color: #28292b;
+}
+
+.first-container img {
+  height: 70vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.second-container {
+  z-index: -1;
+  height: 150vh;
+  padding-top: 0vh;
+  background-color: #1a1818;
+}
+
+.second-container h2 {
+  text-align: start;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.flex-text {
+  display: flex;
+  justify-content: start;
+  gap: 50px;
+  margin-left: 50px;
+  font-size: 22px;
+}
+
+.flex-text a {
+  text-decoration: none;
+  color: white;
+}
+
+.flex-containers {
+  margin-top: 60px;
+  display: flex;
+  justify-content: start;
+  gap: 50px;
+  margin-left: 50px;
+}
+
+.single-item-container {
+  height: 250px;
+  width: 270px;
+  border-radius: 15px;
+  background-color: rgb(39, 39, 42);
+}
+
+.single-item-container img {
+  height: 125px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.single-item-small-container {
+  padding: 20px 20px 20px 20px;
+  height: 230px;
+  width: 200px;
+  background-color: rgb(39, 39, 42);
+  border-radius: 15px;
+}
+
+.single-item-small-container img {
+  height: px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.search-with-button input {
+  margin-left: 250px;
+  color: white;
+  width: 100vh;
+  height: 40px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #343434;
+}
+
+.search-with-button {
+  display: flex;
+}
+
+.search-with-button button {
+  background-color: #000000;
+  color: white;
+  height: 40px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.text {
+  z-index: 1;
+  font-size: 50px;
+  color: white;
+  margin-top: -50vh;
+  text-align: center;
+}
+
+.secondtext {
+  z-index: -1;
+  font-size: 28px;
+  color: white;
+  margin-bottom: -5vh;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  padding: 20px;
+}
+
 .navbar {
-    background-color: #333; 
-    padding: 10px 20px; 
+  background-color: grey;
+  padding: 10px 20px;
 }
 
 /* Styling the logo */
 .logo a {
-    color: #fff; 
-    font-size: 24px; /* Font size */
-    font-weight: bold; /* Font weight */
-    text-decoration: none; /* Remove underline */
+  color: #fff;
+  font-size: 24px;
+  /* Font size */
+  font-weight: bold;
+  /* Font weight */
+  text-decoration: none;
+  /* Remove underline */
 }
 
 /* Styling the navigation links */
 .nav li {
-    display: inline; /* Display inline */
-    margin-right: 20px; /* Margin between links */
+  display: inline;
+  /* Display inline */
+  margin-right: 20px;
+  /* Margin between links */
 }
 
 .nav li a {
-    color: #fff; /* Text color */
-    text-decoration: none; /* Remove underline */
+  color: #fff;
+  /* Text color */
+  text-decoration: none;
+  /* Remove underline */
 }
 
 .nav li a:hover {
-    color: #ddd; /* Text color on hover */
+  color: #ddd;
+  /* Text color on hover */
 }
