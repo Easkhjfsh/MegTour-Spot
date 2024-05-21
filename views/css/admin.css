@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    padding-top: 0%;
+    margin-top: 0%;
+    height: 100%;
+    padding-left: 8vh;
+    padding-right: 8vh;
+  }
+  
+  .first-container {
+    z-index: 1;
+    height: 100%;
+    border-radius: 15px;
+    width: 100%;
+    padding-top: 0vh;
+    padding-bottom: 50px;
+    background-color: #28292b;
+  }

@@ -1,0 +1,33 @@
+body {
+    background: #030303;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sub-body {
+    color: white;
+    background-color: #161616;
+    height: 220vh;
+    width: 92%;
+    margin: 0 auto;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 0px;
+    padding-top: 0;
+  }
+  
+  .container-home {
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-top: 120px;
+    border-radius: 2vh;
+    background-color: #323232;
+    height: 190vh;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 32px;
+  }
+  
+  /* Other CSS styles go here */
+  

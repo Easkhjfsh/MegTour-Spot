@@ -30,7 +30,7 @@ body {
 
 .second-container {
   z-index: -1;
-  height: 150vh;
+  height: 125vh;
   padding-top: 0vh;
   background-color: #1a1818;
 }
@@ -57,47 +57,106 @@ body {
 .flex-containers {
   margin-top: 60px;
   display: flex;
-  justify-content: start;
-  gap: 50px;
+  justify-content: space-between;
   margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
 }
 
 .single-item-container {
-  height: 250px;
-  width: 270px;
+  height: 270px;
+  width: 290px;
   border-radius: 15px;
   background-color: rgb(39, 39, 42);
 }
 
 .single-item-container img {
-  height: 125px;
+  height: 155px;
   width: 100%;
   border-radius: 15px;
 }
 
+.card-text{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 125px;
+  margin-bottom: -65px;
+}
+
+.card-button{
+  text-decoration: none;
+  margin-left: 10px;
+  background-color: #000000;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100px;
+  border-radius: 15px;
+}
+
+.card-text p {
+  text-align: start;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
 .single-item-small-container {
+  margin-top: -20px;
   padding: 20px 20px 20px 20px;
-  height: 230px;
-  width: 200px;
+  height: 235px;
+  width: 220px;
   background-color: rgb(39, 39, 42);
   border-radius: 15px;
 }
 
 .single-item-small-container img {
-  height: px;
+  height: 120px;
   width: 100%;
   border-radius: 15px;
 }
 
+.card-button-small{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 65px;
+  margin-right: 65px;
+  background-color: #a5a5a5bc;
+  color: black;
+  font-size: 13px;
+  width: 70px;
+  border-radius: 15px;
+}
+
+.card-text-small{
+  margin-top: 10px;
+}
+
+.card-text-small p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+
 .search-with-button input {
   margin-left: 250px;
-  color: white;
+  color: black;
+  font-weight: 500;
   width: 100vh;
   height: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   margin-top: 50px;
   border-radius: 10px;
-  background-color: #343434;
+  background-color: #d3cfcf;
 }
 
 .search-with-button {
@@ -124,10 +183,20 @@ body {
 
 .secondtext {
   z-index: -1;
-  font-size: 28px;
+  font-size: 30px;
   color: white;
-  margin-bottom: -5vh;
+  margin-bottom: 19vh;
   text-align: center;
+}
+
+.black-button{
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #000000;
 }
 
 h2 {

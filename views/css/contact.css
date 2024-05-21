@@ -1,0 +1,60 @@
+body {
+    background: #030303;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .subBody {
+    background-color: #161616;
+    height: 364vh;
+    width: 92%;
+    margin: 0 auto;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  
+  .containerHome {
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 2vh;
+    background-color: #323232;
+    height: 340vh;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 32px;
+  }
+  
+  .bg-image img {
+    margin-top: 50px;
+    opacity: 0.4;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    z-index: -1;
+  }
+  
+  .bg-image p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 54px;
+    border: 5px solid white;
+    padding: 5px 20px 10px 20px;
+    font-weight: 500;
+    letter-spacing: 10px;
+  }
+  
+  .middle-text {
+    color: rgb(212, 212, 212);
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  /* Other CSS styles go here */
+  

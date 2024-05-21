@@ -16,6 +16,9 @@
         }
 
         .logo a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
             padding-left: 20px;
             font-size: 30px;
         }
@@ -37,9 +40,10 @@
             padding-top: 15px;
             text-decoration: none;
             color: white;
+            margin-right: 20px;
         }
 
-        .end-items button{
+        .end-items button {
             margin-top: 15px;
             border-radius: 15px;
             background-color: black;
@@ -54,11 +58,10 @@
     <nav class="navbar">
         <div class="nav">
             <div class="items">
-                <div class="logo"><a href="#">MegTour-Spot</a></div>
+                <div class="logo"><a href="home.php">MegTour-Spot</a></div>
                 <div class="end-items">
-                    <a href="#">Search</a>
-                    <a href="#">Support</a>
-                    <button>Log In</button>
+                    <a href="profile.php">Bookings</a>
+                    <a href="contact.php">Contact Us</a>
                 </div>
             </div>
         </div>

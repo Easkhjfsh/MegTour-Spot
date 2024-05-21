@@ -1,0 +1,106 @@
+body {
+  background-color: black;
+  padding-top: 0%;
+  margin-top: 0%;
+  padding-left: 8vh;
+  padding-right: 8vh;
+}
+
+.first-container {
+  z-index: 1;
+  border-radius: 15px;
+  height: 230vh;
+  width: 100%;
+  padding-top: 0vh;
+  background-color: #28292b;
+}
+
+.place-head-details {
+  height: 70vh;
+  width: 100%;
+  position: relative; /* Set relative positioning for containing absolutely positioned elements */
+}
+
+.place-head-details img {
+  height: 70vh;
+  width: 100%; /* Adjusted to fill the entire width of the container */
+  z-index: 0;
+}
+
+.place-head-details .place-name {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  font-weight: 600;
+  position: absolute; /* Position the text absolutely */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Centering trick */
+  z-index: 1;
+}
+
+.all-place-details {
+  display: block;
+  width: 100%;
+}
+
+.place-details {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.place-desc {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 200px;
+  display: block;
+}
+
+.place-desc p{
+  letter-spacing: 1px;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.place-desc justify {
+  font-size: 20px;
+  color: white;
+}
+
+.button-book {
+  margin-top: 50px;
+  width: 160px;
+  padding: 10px 20px 10px 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.button-book a{
+  color: white;
+  text-decoration: none;
+}
+
+.time p{
+  color: rgb(113, 177, 150);
+  margin-top: 100px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.place-img {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: block;
+}
+
+.place-img img {
+  width: 600px;
+  height: 400px;
+  margin-bottom: 20px;
+}
