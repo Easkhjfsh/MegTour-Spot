@@ -58,10 +58,9 @@
     <nav class="navbar">
         <div class="nav">
             <div class="items">
-                <div class="logo"><a href="home.php">MegTour-Spot</a></div>
+                <div class="logo"><a href="admin.php">MegTour-Spot</a></div>
                 <div class="end-items">
-                    <a href="profile.php">Bookings</a>
-                    <a href="contact.php">Contact Us</a>
+                    <a href="all_places_admin.php">Check Added Places</a>
                     <a href="signin.php">Log out</a>
                 </div>
             </div>

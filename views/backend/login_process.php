@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($result->num_rows === 1) {
         // Fetch the user row
         $user = $result->fetch_assoc();
-        
+
         // Verify password
         if (password_verify($password, $user['password'])) {
             // Password is correct, redirect to admin page or home page
@@ -34,7 +34,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
         } else {
             // Password is incorrect, redirect to login page with error message
-            header("Location: ../signin.php?error=incorrect_password");
+            echo "<script>alert('Incorrect Details'); window.location = '../signin.php';
+            </script>"; 
             exit();
         }
     } else {
@@ -51,4 +52,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header("Location: signin.php");
     exit();
 }
-?>

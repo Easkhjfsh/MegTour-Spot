@@ -13,7 +13,7 @@
     <div class="first-container">
         <?php
         include("/Wamp/www/MeghTour/MegTour-Spot/backend/connection.php");
-        include("/Wamp/www/MeghTour/MegTour-Spot/components/navbar.php");
+        include("/Wamp/www/MeghTour/MegTour-Spot/components/navbarAdmin.php");
         if (isset($_GET['id'])) {
             // Retrieve the value of 'id' parameter
             $place_id = $_GET['id'];

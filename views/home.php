@@ -54,7 +54,7 @@
                     <div class='card-text'>
                         <p>{$row['place_name']}</p>
                     </div>
-                    <a href='single_place.php?id={$row['place_id']}' class='card-button'>Check</a>
+                    <a href='single_place.php?id={$row['place_id']}' class='card-button'>Explore</a>
                 </div>";
                     }
                 }
@@ -80,7 +80,7 @@
                             <div class='card-text-small'>
                             <p>{$row['place_name']}</p>
                         </div>
-                            <a href='single_place.php?id={$row['place_id']}' class='card-button-small'>Check</a>
+                            <a href='single_place.php?id={$row['place_id']}' class='card-button-small'>Explore</a>
                             </div>";
                     }
                 }

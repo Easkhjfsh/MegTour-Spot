@@ -13,13 +13,18 @@
         <?php
         include("/Wamp/www/MeghTour/MegTour-Spot/backend/connection.php");
         ?>
-        <form action="backend/login_process.php" method="POST">
-            <h2>Login</h2>
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="submit" value="Login">
-            <a href="signup.php">Create an account.</a>
-        </form>
+        <h2>Login</h2>
+        <div class="block">
+            <form action="backend/login_process.php" method="POST">
+                <input type="text" name="username" placeholder="Username" required><br>
+                <input type="password" name="password" placeholder="Password" required><br>
+                <input type="submit" value="Login"><br>
+                <div class="signup">
+                    <a href="signup.php">Click here to create an account.</a>
+                </div>
+            </form>
+        </div>
+
     </div>
 </body>
 
