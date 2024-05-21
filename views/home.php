@@ -16,7 +16,7 @@
         include("/Wamp/www/MeghTour/MegTour-Spot/backend/connection.php");
         include("/Wamp/www/MeghTour/MegTour-Spot/components/navbar.php");
         ?>
-        <img src="assets/images/frontimg.jpg" alt="Example Image">
+        <img src="assets/images/main.jpg" alt="Example Image">
         <h1 class="text">Best Place in Meghalaya to Travel</h1>
         <div class="search-with-button">
             <input type="text" placeholder="Explore Destination">
